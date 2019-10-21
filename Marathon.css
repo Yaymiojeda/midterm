@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+	
+#references {font-family: 'Merriweather', serif;
+			color:darkblue;
+			text-align: center;
+			text-decoration: underline;
+}
+
+a:link {color:#012935
+}
+
+a:hover {
+	color:hotpink;
+}
+
+a:visited {
+	color:red;
+}
+
+a:active {
+	color:yellow;
+}
+
+#marathonword {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+#contentsword {
+	text-align: center;
+}
+
+#toc { 
+	width: 230px;
+	height: 690px;
+	border: 1px solid #4F4E4E;
+	background-color:#E2E3F2;
+}
+
+p {
+   text-align: justify;
+   text-justify:inter-word;
+}
+	
+#image1 {
+	float:right;
+	clear: right;
+	border: 1px solid #4F4E4E;
+}
+
+figure {
+	display: inline-block;
+	border: 1px solid black;
+}
+figcaption {
+	text-align: center;
+}
+
+
+.left_ref {
+  float: left;
+  width: 50%;
+  text-align: justify;
+}
+
+.right_ref {
+  float: right;
+  width: 50%;
+  text-align: justify;
+}
